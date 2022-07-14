@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+<style>
+    body{
+       background-color: rgba(250, 248, 246, 0.724);}
+
+
+section{
+    background-color:rgba(135, 124, 67, 0.646) ;
+    color: azure;
+    margin: 40px 20px;
+    height: 35rem;
+  
+}
+
+div{ 
+  padding: 25px;
+}
+
+.form{
+background-color: rgb(143, 130, 55);
+text-transform: capitalize;
+padding: 2rem;
+
+}
+
+.tran{
+    background: transparent;
+    border-bottom: 1px solid rgba(41, 37, 37, 0.385);
+}
+
+h4{
+              color:rgb(182, 1, 1);
+              text-decoration:underline;
+              font-size:1.5rem;
+              font-weight:400;
+              text-transform:uppercase;
+              padding: 10px;
+            }
+a{
+  color: rgb(205, 27, 7);  
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+@media (min-width:320px) and (max-width:1200px) {
+.all{
+  border: none;
+}
+
+}
+
+input:focus{
+  color: rgb(20, 7, 7);
+  outline-color: rgb(93, 56, 1);
+}
+
+
+</style>
+
+</head>
+<body>
+  <main class="all">
+    <section>
+        <h4>contact me page</h4>
+        <form class="form">
+          <div>
+      <label for="name">name</label>
+      <input type="text" required/>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="text"/>
+      </div>
+      
+      <div>
+        <label for="message">Message</label>
+        <textarea rows="3" columns="3" class="tran" required></textarea>
+      </div>
+      
+      <div>
+        <label for="priority">Priority</label>
+        <select name="Priority"  class="drop">
+      <option value="important/business">Important</option>
+      <option value="semi-formal">Semi-formal</option>
+      <option value="casual">Casual</option>
+      
+      
+        </select>
+      </div>
+        
+      
+      
+      
+      </form>
+      </section>
+
+      <p>
+         <a href="homepage.html" target="_parent">kindly click to return to homepage</a>
+      </p>
+  </main>  
+</body>
+</html>
